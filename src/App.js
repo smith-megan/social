@@ -1,17 +1,16 @@
-import './App.css';
-import Main from './Components/Main.js'
-import Signin from './Components/Signin.js'
-import Create from './Components/Create.js'
-import Email from './Components/Email/Email.js'
+import './App.css'
+import 'semantic-ui-css/semantic.min.css'
+import Main from './Components/Main'
+import SignIn from './Components/Signin'
+import Create from './Components/Create'
+import Email from './Components/Email/Email'
+
 function App() {
-  return (
-    <div className="App">
-      <Main/>
-      <Signin />
-      <Create />
-      <Email />
-    </div>
-  );
+	return (
+		<div className="App">
+			<SignIn />
+		</div>
+	)
 }
 
-export default App;
+export default App
