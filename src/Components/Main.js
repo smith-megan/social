@@ -1,11 +1,19 @@
+import Left from "./Left.js"
+import Middle from "./Middle.js"
+import Right from "./Right.js"
+
 function Main(){
   return(
 		<div className="container grid">
 			<div className="left">
-				<p>hello</p>
+				<Left />
 			</div>
-			<div className="middle"></div>
-			<div className="right"></div>
+			<div className="middle">
+				<Middle />
+			</div>
+			<div className="right">
+				<Right />
+			</div>
 		</div>
 )}
 export default Main
