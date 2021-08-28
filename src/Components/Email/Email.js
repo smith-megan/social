@@ -1,5 +1,5 @@
 import "./Email.css";
-
+import React from 'react'
 function Email() {
   function sendEmail(){
     //send the email in

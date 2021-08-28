@@ -1,3 +1,4 @@
+import React from 'react'
 import Left from "./Left.js"
 import Middle from "./Middle.js"
 import Right from "./Right.js"
